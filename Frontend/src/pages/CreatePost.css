@@ -1,0 +1,65 @@
+.create-post {
+  width: min(90%, 520px);
+  margin: 80px auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.1);
+}
+
+.create-post h1 {
+  margin: 0 0 28px;
+  color: #111827;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.create-post form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-post label {
+  color: #374151;
+  font-weight: 600;
+}
+
+.create-post input[type="file"],
+.create-post input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  padding: 13px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f9fafb;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.create-post input:focus {
+  outline: none;
+  border-color: #6366f1;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+.create-post button {
+  margin-top: 10px;
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.create-post button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+}
